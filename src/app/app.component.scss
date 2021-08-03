@@ -1,0 +1,92 @@
+.wrapper {
+    padding: 4rem;
+}
+
+.navbar {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    ul {
+        display: flex;
+        li {
+            padding: 0rem 2rem 0rem 2rem;
+        }
+    }
+}
+
+.hover_hint {
+    display: none;
+}
+
+._has-avatar {
+    background-color: black !important;
+}
+
+.bg-wrapper {
+    background-color: white;
+    height: 60vh;
+    width: 100%;
+    position: relative;
+
+    .avatar {
+        position: absolute;
+        top: 2rem;
+        right: -20rem;
+
+        img {
+            width: 35rem;
+        }
+    }
+
+    .header {
+        position: absolute;
+        right: 0;
+        background-color: yellow;
+        box-shadow: -17px 20px 0px 0px #d6d600b8;
+        padding: 2rem 5rem 2rem 10rem;
+        top: 15rem;
+        bottom: auto;
+        width: max-content;
+        margin-left: auto; 
+        margin-right: auto;
+
+        .achievements {
+            display: flex;
+            flex-wrap: nowrap;
+
+            * {
+                margin-left: -0.9rem;
+            }
+        }
+    }
+}
+
+.anim-block {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &_1 {
+        background-image: url('https://thumb.tildacdn.com/tild3065-3032-4133-a635-646234633965/-/resize/200x/-/format/webp/Design-Elements-02--.png');
+        top: 0;
+        right: 0;
+    }
+    
+    &_2 {
+        background-image: url('https://thumb.tildacdn.com/tild3830-6633-4864-a534-353964343266/-/resize/130x/-/format/webp/423.png');
+        bottom: 0;
+    }
+    
+    &_3 {
+        background-image: url('https://thumb.tildacdn.com/tild3161-3862-4732-b936-386165356163/-/resize/140x/-/format/webp/Design-Elements-02--.png');
+    }
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+}

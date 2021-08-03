@@ -1,0 +1,181 @@
+<tui-root>
+  <tui-scrollbar class="box" tuiMode="onDark">
+    <div class="bg-wrapper">
+      <div class="avatar tui-col_md-12">
+        <img src="https://i.gifer.com/6stf.gif" />
+      </div>
+      <div class="header tui-col_md-12">
+        <h1 class="tui-text_h1">Mark Bodrov</h1>
+        <hr />
+        <p class="tui-text_body-xl">Full Stack разработчик</p>
+        <div class="tui-row achievements">
+          <tui-avatar
+            class="tui-space_top-1"
+            avatarUrl="assets/php.png"
+            size="m"
+            [rounded]="true"
+          ></tui-avatar>
+          <tui-avatar
+            class="tui-space_top-1"
+            avatarUrl="assets/typescript.png"
+            size="m"
+            [rounded]="true"
+          ></tui-avatar>
+          <tui-avatar
+            class="tui-space_top-1"
+            avatarUrl="assets/arduino.png"
+            size="m"
+            [rounded]="true"
+          ></tui-avatar>
+          <tui-avatar
+            class="tui-space_top-1"
+            avatarUrl="assets/mq.svg"
+            size="m"
+            [rounded]="true"
+          ></tui-avatar>
+          <tui-avatar
+            class="tui-space_top-1"
+            avatarUrl="assets/redis.svg"
+            size="m"
+            [rounded]="true"
+          ></tui-avatar>
+          <tui-avatar
+            class="tui-space_top-1"
+            avatarUrl="assets/c.jpg"
+            size="m"
+            [rounded]="true"
+          ></tui-avatar>
+          <tui-avatar
+            class="tui-space_top-1"
+            avatarUrl="assets/js.png"
+            size="m"
+            [rounded]="true"
+          ></tui-avatar>
+          <tui-avatar
+            class="tui-space_top-1"
+            avatarUrl="assets/sass.svg"
+            size="m"
+            [rounded]="true"
+          ></tui-avatar>
+          <tui-avatar
+            class="tui-space_top-1"
+            avatarUrl="assets/webpack.png"
+            size="m"
+            [rounded]="true"
+          ></tui-avatar>
+          <tui-avatar
+            class="tui-space_top-1"
+            avatarUrl="assets/sql.png"
+            size="m"
+            [rounded]="true"
+          ></tui-avatar>
+          <tui-avatar
+            class="tui-space_top-1"
+            avatarUrl="assets/python.png"
+            size="m"
+            [rounded]="true"
+          ></tui-avatar>
+        </div>
+      </div>
+      <div class="anim-block anim-block_1"></div>
+      <div class="anim-block anim-block_2"></div>
+      <div class="anim-block anim-block_3"></div>
+    </div>
+    <hr />
+    <div class="wrapper">
+      <div class="tui-row">
+        <div class="tui-col_md-12">
+          <h1 class="tui-text_h3">Web Разработка</h1>
+        </div>
+      </div>
+      <div class="tui-row">
+        <div class="tui-col_md-4">
+          <a
+            tuiIsland
+            href="http://ng-web-apis.github.io/"
+            size="l"
+            target="_blank"
+            [hoverable]="true"
+          >
+            <img class="image" alt="Taiga" src="assets/vue.png" />
+            <h3 class="title title_size_s">VueJS</h3>
+          </a>
+        </div>
+
+        <div class="tui-col_md-4">
+          <a
+            tuiIsland
+            href="http://ng-web-apis.github.io/"
+            size="l"
+            target="_blank"
+            [hoverable]="true"
+          >
+            <img class="image" alt="Taiga" src="assets/laravel.png" />
+            <h3 class="title title_size_s">Laravel</h3>
+          </a>
+        </div>
+        <div class="tui-col_md-4">
+          <a
+            tuiIsland
+            href="http://ng-web-apis.github.io/"
+            size="l"
+            target="_blank"
+            [hoverable]="true"
+          >
+            <img class="image" alt="Taiga" [src]="bannerImage" />
+            <h3 class="title title_size_s">Angular</h3>
+          </a>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="wrapper">
+      <div class="tui-row">
+        <div class="tui-col_md-12">
+          <h1 class="tui-text_h3">Мобильная разработка</h1>
+        </div>
+      </div>
+      <div class="tui-row">
+        <div class="tui-col_md-4">
+          <a
+            tuiIsland
+            href="http://ng-web-apis.github.io/"
+            size="l"
+            target="_blank"
+            [hoverable]="true"
+          >
+            <img class="image" alt="Taiga" src="assets/flutter.png" />
+            <h3 class="title title_size_s">Flutter</h3>
+            <p class="text"></p>
+          </a>
+        </div>
+
+        <div class="tui-col_md-4">
+          <a
+            tuiIsland
+            href="http://ng-web-apis.github.io/"
+            size="l"
+            target="_blank"
+            [hoverable]="true"
+          >
+            <img class="image" alt="Taiga" src="assets/native.png" />
+            <h3 class="title title_size_s">NativeScript</h3>
+            <p class="text"></p>
+          </a>
+        </div>
+      </div>
+    </div>
+    <ng-container ngProjectAs="tuiOverDialogs">
+      <!-- Content over dialogs-->
+    </ng-container>
+    <ng-container ngProjectAs="tuiOverNotifications">
+      <!-- Content over notifications -->
+    </ng-container>
+    <ng-container ngProjectAs="tuiOverPortals">
+      <!-- Content over dropdowns -->
+    </ng-container>
+    <ng-container ngProjectAs="tuiOverHints">
+      <!-- Content over hints -->
+    </ng-container>
+  </tui-scrollbar>
+</tui-root>
